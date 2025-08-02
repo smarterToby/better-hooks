@@ -1,12 +1,11 @@
-// @ts-expect-error It works
-import { describe, it, expect, vi } from 'bun:test';
+import { describe, it, expect, jest } from 'bun:test';
 import { renderHook } from '@testing-library/react';
 import { useEventListener } from './useEventListener';
 import '../../test/setup';
 
 describe('useEventListener', () => {
   it('should attach and trigger an event listener on window', () => {
-    const handler = vi.fn();
+    const handler = jest.fn();
 
     renderHook(() => useEventListener('click', handler));
 
@@ -18,7 +17,7 @@ describe('useEventListener', () => {
   });
 
   it('should attach to a specific element', () => {
-    const handler = vi.fn();
+    const handler = jest.fn();
     const div = document.createElement('div');
 
     renderHook(() => useEventListener('click', handler, div));
@@ -30,7 +29,7 @@ describe('useEventListener', () => {
   });
 
   it('should clean up the event listener on unmount', () => {
-    const handler = vi.fn();
+    const handler = jest.fn();
 
     const { unmount } = renderHook(() => useEventListener('click', handler));
 

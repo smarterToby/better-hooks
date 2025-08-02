@@ -1,4 +1,3 @@
-// @ts-expect-error It works
 import { describe, it, expect, beforeEach } from 'bun:test';
 import { renderHook, act } from '@testing-library/react';
 import { useLocalStorage } from './useLocalStorage';

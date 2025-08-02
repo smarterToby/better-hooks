@@ -1,4 +1,3 @@
-// @ts-expect-error It works
 import { describe, it, expect, beforeEach, afterEach, jest } from 'bun:test';
 import { renderHook, act } from '@testing-library/react';
 import { useClipboard } from './useClipboard';

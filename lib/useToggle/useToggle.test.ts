@@ -1,4 +1,3 @@
-// @ts-expect-error It works
 import { describe, it, expect } from 'bun:test';
 import { renderHook, act } from '@testing-library/react';
 import { useToggle } from './useToggle';
