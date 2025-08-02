@@ -27,7 +27,7 @@ describe('useCounter', () => {
       result.current.inc();
       result.current.inc();
     });
-    expect(result.current.count).toBe(2); // Max reached
+    expect(result.current.count).toBe(2);
   });
 
   it('should decrement the count respecting min', () => {
@@ -41,7 +41,7 @@ describe('useCounter', () => {
     act(() => {
       result.current.dec();
     });
-    expect(result.current.count).toBe(-1); // Min reached
+    expect(result.current.count).toBe(-1);
   });
 
   it('should set count within min and max bounds', () => {
@@ -55,12 +55,12 @@ describe('useCounter', () => {
     act(() => {
       result.current.set(15);
     });
-    expect(result.current.count).toBe(10); // Max clamped
+    expect(result.current.count).toBe(10);
 
     act(() => {
       result.current.set(-5);
     });
-    expect(result.current.count).toBe(0); // Min clamped
+    expect(result.current.count).toBe(0);
   });
 
   it('should reset to initial value', () => {
