@@ -34,10 +34,21 @@ npm install better-hooks
 
 ## 🧰 Available Hooks
 
-| Hook              | Description                                 |
-| ----------------- | ------------------------------------------- |
-| `useCounter`      | A simple counter hook with useful helpers           |
-
+| Hook                  | Description                                            |
+|-----------------------|--------------------------------------------------------|
+| `useBoolean`          | Manages a boolean state with toggle and set functions  |
+| `useClipboard`        | Handles clipboard operations                           |
+| `useClipboardHistory` | Tracks clipboard history for advanced use cases        |
+| `useCounter`          | A simple counter hook with useful helpers              |
+| `useDebounce`         | Debounces a value or function for performance          |
+| `useEventListener`    | Attaches event listeners to DOM elements or window     |
+| `useIsClient`         | Detects if the code is running on the client side      |
+| `useLocalStorage`     | Manages state in localStorage with sync capabilities   |
+| `usePrevious`         | Tracks the previous value of a state or prop           |
+| `useSessionStorage`   | Manages state in sessionStorage with sync capabilities |
+| `useStep`             | Manages step-based flows (e.g., wizards or forms)      |
+| `useThrottle`         | Throttles a value or function for performance          |
+| `useToggle`           | Simplified boolean state toggling                      |
 
 > More hooks coming soon. Feel free to contribute or suggest new ones!
 
