@@ -73,7 +73,7 @@
     "emojiFormat": "emoji",
     "scopePrompt": false,
     "messagePrompt": true,
-    "capitalizeTitle": true,
+    "capitalizeTitle": false,
     "gitmojisUrl": "https://gitmoji.dev/api/gitmojis"
   },
   "release": {
