@@ -7,3 +7,4 @@ export { useThrottle } from './useThrottle';
 export { useLocalStorage } from './useLocalStorage';
 export { useIsClient } from './useIsClient';
 export { useStep } from './useStep';
+export { useEventListener } from './useEventListener';
