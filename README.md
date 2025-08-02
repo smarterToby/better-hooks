@@ -43,6 +43,7 @@ npm install better-hooks
 | `useDebounce`         | Debounces a value or function for performance          |
 | `useEventListener`    | Attaches event listeners to DOM elements or window     |
 | `useIsClient`         | Detects if the code is running on the client side      |
+| `useIsMounted`        | Tracks whether a component is currently mounted        |
 | `useLocalStorage`     | Manages state in localStorage with sync capabilities   |
 | `usePrevious`         | Tracks the previous value of a state or prop           |
 | `useSessionStorage`   | Manages state in sessionStorage with sync capabilities |
