@@ -9,3 +9,4 @@ globalThis.document = dom.window.document;
 globalThis.navigator = { userAgent: 'node.js' } as never;
 globalThis.localStorage = dom.window.localStorage;
 globalThis.sessionStorage = dom.window.sessionStorage;
+globalThis.navigator = dom.window.navigator;
