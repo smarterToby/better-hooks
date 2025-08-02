@@ -1,69 +1,54 @@
-# React + TypeScript + Vite
+# 🧠 better-hooks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A modern collection of reusable, fully typed React hooks.**
 
-Currently, two official plugins are available:
+> Clean. Composable. Fully typed. Zero dependencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* ⚡️ **Typed from the core** – Built with TypeScript, with excellent inference
+* 💡 **Simple APIs** – Follows the conventions of native React hooks
+* 🧹 **Composable** – Designed to integrate seamlessly in real-world apps
+* 🩸 **Lightweight** – No runtime dependencies, just hooks
+* ✅ **Tested with Bun** – Ready for modern tooling
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📦 Installation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+bun add better-hooks
+# or
+pnpm add better-hooks
+# or
+yarn add better-hooks
+# or
+npm install better-hooks
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+> Requires React 16.8.0 or higher.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧰 Available Hooks
+
+| Hook              | Description                                 |
+| ----------------- | ------------------------------------------- |
+| `useCounter`      | A simple counter hook with useful helpers           |
+
+
+> More hooks coming soon. Feel free to contribute or suggest new ones!
+
+---
+
+## 📚 Documentation
+
+Documentation is being written using [Nextra](https://nextra.site/), coming soon.
+
+---
+
+## 🧐 Philosophy
+
+> Hooks should be simple to use, easy to type, and never surprising.
