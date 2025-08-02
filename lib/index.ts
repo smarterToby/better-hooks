@@ -13,3 +13,4 @@ export { useClipboard } from './useClipboard';
 export { useClipboardHistory } from './useClipboardHistory';
 export { useIsMounted } from './useIsMounted';
 export { useHover } from './useHover';
+export { useClickOutside } from './useClickOutside';
