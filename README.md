@@ -48,6 +48,7 @@ npm install better-hooks
 | `useIsClient`         | Detects if the code is running on the client side                                                                                                                   |
 | `useIsMounted`        | Tracks whether a component is currently mounted                                                                                                                     |
 | `useLocalStorage`     | Manages state in localStorage with sync capabilities                                                                                                                |
+| `useOnlineStatus`     | Tracks the browser's online/offline status                                                                                                                          |
 | `usePrevious`         | Tracks the previous value of a state or prop                                                                                                                        |
 | `useScrollProgress`   | Tracks vertical scroll progress for window or any scrollable element. Supports fractional (0-1) or percent (0-100) output. Optional ref to target specific element. |
 | `useSessionStorage`   | Manages state in sessionStorage with sync capabilities                                                                                                              |
