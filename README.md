@@ -53,6 +53,7 @@ npm install better-hooks
 | `useScrollProgress`   | Tracks vertical scroll progress for window or any scrollable element. Supports fractional (0-1) or percent (0-100) output. Optional ref to target specific element. |
 | `useSessionStorage`   | Manages state in sessionStorage with sync capabilities                                                                                                              |
 | `useStep`             | Manages step-based flows (e.g., wizards or forms)                                                                                                                   |
+| `useStopwatch`	       | Implements a stopwatch with start, stop, reset, and resume controls; tracks elapsed time in milliseconds                                                            |
 | `useThrottle`         | Throttles a value or function for performance                                                                                                                       |
 | `useToggle`           | Simplified boolean state toggling                                                                                                                                   |
 

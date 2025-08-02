@@ -17,3 +17,4 @@ export { useClickOutside } from './useClickOutside';
 export { useClickAnywhere } from './useClickAnywhere';
 export { useScrollProgress } from './useScrollProgress';
 export { useOnlineStatus } from './useOnlineStatus';
+export { useStopwatch } from './useStopwatch';
