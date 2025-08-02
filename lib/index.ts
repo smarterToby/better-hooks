@@ -10,3 +10,4 @@ export { useStep } from './useStep';
 export { useEventListener } from './useEventListener';
 export { useSessionStorage } from './useSessionStorage';
 export { useClipboard } from './useClipboard';
+export { useClipboardHistory } from './useClipboardHistory';

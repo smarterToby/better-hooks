@@ -1,0 +1,1 @@
+export { useClipboardHistory } from './useClipboardHistory';
