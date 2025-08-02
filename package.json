@@ -1,6 +1,6 @@
 {
   "name": "better-hooks",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "description": "A React Hook library",
   "author": {
