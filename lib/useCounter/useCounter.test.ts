@@ -1,8 +1,8 @@
-import { renderHook, act } from '@testing-library/react';
-import { useCounter } from './useCounter';
 // @ts-expect-error It works
 import { describe, it, expect } from 'bun:test';
-import '../test/setup';
+import { renderHook, act } from '@testing-library/react';
+import { useCounter } from './useCounter';
+import '../../test/setup';
 
 describe('useCounter', () => {
   it('should initialize with default value 0', () => {
