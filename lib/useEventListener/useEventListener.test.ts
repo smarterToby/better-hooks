@@ -9,11 +9,11 @@ describe('useEventListener', () => {
 
     renderHook(() => useEventListener('click', handler));
 
-    const clickEvent = new window.MouseEvent('click');
+    const clickEvent = new MouseEvent('click');
     window.dispatchEvent(clickEvent);
 
     expect(handler).toHaveBeenCalledTimes(1);
-    expect(handler).toHaveBeenCalledWith(expect.any(window.MouseEvent));
+    expect(handler).toHaveBeenCalledWith(expect.any(MouseEvent));
   });
 
   it('should attach to a specific element', () => {
@@ -22,7 +22,7 @@ describe('useEventListener', () => {
 
     renderHook(() => useEventListener('click', handler, div));
 
-    const clickEvent = new window.MouseEvent('click');
+    const clickEvent = new MouseEvent('click');
     div.dispatchEvent(clickEvent);
 
     expect(handler).toHaveBeenCalledTimes(1);
@@ -35,7 +35,7 @@ describe('useEventListener', () => {
 
     unmount();
 
-    const clickEvent = new window.MouseEvent('click');
+    const clickEvent = new MouseEvent('click');
     window.dispatchEvent(clickEvent);
 
     expect(handler).not.toHaveBeenCalled();

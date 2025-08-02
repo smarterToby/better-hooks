@@ -42,6 +42,7 @@ npm install better-hooks
 | `useCounter`          | A simple counter hook with useful helpers              |
 | `useDebounce`         | Debounces a value or function for performance          |
 | `useEventListener`    | Attaches event listeners to DOM elements or window     |
+| `useHover`            | Tracks hover state for a DOM element via ref           |
 | `useIsClient`         | Detects if the code is running on the client side      |
 | `useIsMounted`        | Tracks whether a component is currently mounted        |
 | `useLocalStorage`     | Manages state in localStorage with sync capabilities   |

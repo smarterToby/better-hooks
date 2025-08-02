@@ -10,3 +10,4 @@ globalThis.navigator = { userAgent: 'node.js' } as never;
 globalThis.localStorage = dom.window.localStorage;
 globalThis.sessionStorage = dom.window.sessionStorage;
 globalThis.navigator = dom.window.navigator;
+globalThis.MouseEvent = dom.window.MouseEvent;
