@@ -1,0 +1,1 @@
+export { useClickAnywhere } from './useClickAnywhere';
