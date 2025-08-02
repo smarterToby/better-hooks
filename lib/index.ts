@@ -15,3 +15,4 @@ export { useIsMounted } from './useIsMounted';
 export { useHover } from './useHover';
 export { useClickOutside } from './useClickOutside';
 export { useClickAnywhere } from './useClickAnywhere';
+export { useScrollProgress } from './useScrollProgress';

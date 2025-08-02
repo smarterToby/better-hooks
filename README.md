@@ -34,25 +34,26 @@ npm install better-hooks
 
 ## 🧰 Available Hooks
 
-| Hook                  | Description                                                                    |
-|-----------------------|--------------------------------------------------------------------------------|
-| `useBoolean`          | Manages a boolean state with toggle and set functions                          |
-| `useClickAnywhere`    | Runs a callback when clicking anywhere on the document (global click listener) |
-| `useClickOutside`     | Detect clicks outside a referenced element and run a callback                  |
-| `useClipboard`        | Handles clipboard operations                                                   |
-| `useClipboardHistory` | Tracks clipboard history for advanced use cases                                |
-| `useCounter`          | A simple counter hook with useful helpers                                      |
-| `useDebounce`         | Debounces a value or function for performance                                  |
-| `useEventListener`    | Attaches event listeners to DOM elements or window                             |
-| `useHover`            | Tracks hover state for a DOM element via ref                                   |
-| `useIsClient`         | Detects if the code is running on the client side                              |
-| `useIsMounted`        | Tracks whether a component is currently mounted                                |
-| `useLocalStorage`     | Manages state in localStorage with sync capabilities                           |
-| `usePrevious`         | Tracks the previous value of a state or prop                                   |
-| `useSessionStorage`   | Manages state in sessionStorage with sync capabilities                         |
-| `useStep`             | Manages step-based flows (e.g., wizards or forms)                              |
-| `useThrottle`         | Throttles a value or function for performance                                  |
-| `useToggle`           | Simplified boolean state toggling                                              |
+| Hook                  | Description                                                                                                                                                         |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `useBoolean`          | Manages a boolean state with toggle and set functions                                                                                                               |
+| `useClickAnywhere`    | Runs a callback when clicking anywhere on the document (global click listener)                                                                                      |
+| `useClickOutside`     | Detect clicks outside a referenced element and run a callback                                                                                                       |
+| `useClipboard`        | Handles clipboard operations                                                                                                                                        |
+| `useClipboardHistory` | Tracks clipboard history for advanced use cases                                                                                                                     |
+| `useCounter`          | A simple counter hook with useful helpers                                                                                                                           |
+| `useDebounce`         | Debounces a value or function for performance                                                                                                                       |
+| `useEventListener`    | Attaches event listeners to DOM elements or window                                                                                                                  |
+| `useHover`            | Tracks hover state for a DOM element via ref                                                                                                                        |
+| `useIsClient`         | Detects if the code is running on the client side                                                                                                                   |
+| `useIsMounted`        | Tracks whether a component is currently mounted                                                                                                                     |
+| `useLocalStorage`     | Manages state in localStorage with sync capabilities                                                                                                                |
+| `usePrevious`         | Tracks the previous value of a state or prop                                                                                                                        |
+| `useScrollProgress`   | Tracks vertical scroll progress for window or any scrollable element. Supports fractional (0-1) or percent (0-100) output. Optional ref to target specific element. |
+| `useSessionStorage`   | Manages state in sessionStorage with sync capabilities                                                                                                              |
+| `useStep`             | Manages step-based flows (e.g., wizards or forms)                                                                                                                   |
+| `useThrottle`         | Throttles a value or function for performance                                                                                                                       |
+| `useToggle`           | Simplified boolean state toggling                                                                                                                                   |
 
 > More hooks coming soon. Feel free to contribute or suggest new ones!
 
